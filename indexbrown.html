@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<HEAD>
+		<TITLE>Neves Studios LLC</TITLE>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="css/mainbrown.css">
+		<script language="javascript">
+			var buttonToImageMap = new Object();
+			buttonToImageMap.aboutButton = new Image(128,128);
+			buttonToImageMap.appsButton = new Image(128,128);
+			buttonToImageMap.blogButton = new Image(128,128);
+			buttonToImageMap.forumsButton = new Image(128,128);
+			buttonToImageMap.linksButton = new Image(128,128);
+			buttonToImageMap.aboutButton.src = "images/AboutButtonDarkBGLightFGShort.png";
+			buttonToImageMap.appsButton.src = "images/AppsButtonDarkBGLightFGWide.png";
+			buttonToImageMap.blogButton.src = "images/BlogButtonDarkBGLightFG.png";
+			buttonToImageMap.forumsButton.src = "images/ForumsButtonDarkBGLightFGTallRotatedText.png";
+			buttonToImageMap.linksButton.src = "images/LinksButtonDarkBGLightFGShort.png";
+			var hoverButtonToImageMap = new Object();
+			hoverButtonToImageMap.aboutButton = new Image(128,128);
+			hoverButtonToImageMap.appsButton = new Image(128,128);
+			hoverButtonToImageMap.blogButton = new Image(128,128);
+			hoverButtonToImageMap.forumsButton = new Image(128,128);
+			hoverButtonToImageMap.linksButton = new Image(128,128);
+			hoverButtonToImageMap.aboutButton.src = "images/AboutButtonLightBGDarkFGShort.png";
+			hoverButtonToImageMap.appsButton.src = "images/AppsButtonLightBGDarkFGWide.png";
+			hoverButtonToImageMap.blogButton.src = "images/BlogButtonLightBGDarkFG.png";
+			hoverButtonToImageMap.forumsButton.src = "images/ForumsButtonLightBGDarkFGTallRotatedText.png";
+			hoverButtonToImageMap.linksButton.src = "images/LinksButtonLightBGDarkFGShort.png";
+
+			function buttonOver(name)
+			{
+				myButton = document.getElementById(name);
+				myButton.src = hoverButtonToImageMap[name].src;
+			}
+
+			function buttonOut(name)
+			{
+				myButton = document.getElementById(name);
+				myButton.src = buttonToImageMap[name].src;
+			}
+		</script>
+	</HEAD>
+	<BODY>
+		<!-- Banner -->
+		<div id=header>
+		</div>
+		
+		<!-- Navigation -->
+		<div id=nav>
+		</div>
+		
+		<!-- Content -->
+		<div id=content>
+			<div class=tall>
+				<div id=button1>
+					<a title="forums" onMouseOver="buttonOver('forumsButton')" onMouseOut="buttonOut('forumsButton')" href="http://nevesstudios.com/forums">
+						<img src="images/ForumsButtonDarkBGLightFGTallRotatedText.png" alt="Forums" id="forumsButton"/>
+					</a>
+				</div>
+			</div>
+			<div class=wide>
+				<div id=button2>
+					<a title="apps" onMouseOver="buttonOver('appsButton')" onMouseOut="buttonOut('appsButton')" href="html/applications.html">
+						<img src="images/AppsButtonDarkBGLightFGWide.png" alt="Applications" id="appsButton"/>
+					</a>
+				</div>
+			</div>
+			<div class=normal>
+				<div id=button3>
+					<a title="blog" onMouseOver="buttonOver('blogButton')" onMouseOut="buttonOut('blogButton')" href="http://nevesstudios.com/blog">
+						<img src="images/BlogButtonDarkBGLightFG.png" alt="Blog" id="blogButton"/>
+					</a>
+				</div>
+			</div>
+			<div class=short>
+				<div id=button4>
+					<a title="about" onMouseOver="buttonOver('aboutButton')" onMouseOut="buttonOut('aboutButton')" href="html/about.html">
+						<img src="images/AboutButtonDarkBGLightFGShort.png" alt="About" id="aboutButton"/>
+					</a>
+				</div>
+			</div>
+			<div class=short>
+				<div id=button5>
+					<a title="links" onMouseOver="buttonOver('linksButton')" onMouseOut="buttonOut('linksButton')" href="html/links.html">
+						<img src="images/LinksButtonDarkBGLightFGShort.png" alt="Links" id="linksButton"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<div id=footer>
+			&copy 2011 Neves Studios LLC
+		</div>
+	</BODY>
+</HTML>
