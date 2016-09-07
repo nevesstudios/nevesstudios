@@ -1,0 +1,123 @@
+body {
+	background-color: #F6E4CD
+}
+
+.tall {
+	width: 128;
+	height: 256;
+	border: none;
+}
+
+.tall a {
+	width: 128;
+	height: 256;
+	float: left;
+	border: none;
+}
+
+.tall img {
+	width: 128;
+	height: 256;
+	border: none;
+}
+
+.wide {
+	width: 256;
+	height: 128;
+	border: none;
+}
+
+.wide a {
+	width: 256;
+	height: 128;
+	float: left;
+	border: none;
+}
+
+.wide img {
+	width: 256;
+	height: 128;
+	border: none;
+}
+
+.short {
+	width: 128;
+	height: 64;
+	border: none;
+}
+
+.short a {
+	width: 128;
+	height: 64;
+	float: left;
+	border: none;
+}
+
+.short img {
+	width: 128;
+	height: 64;
+	border: none;
+}
+
+.normal {
+	width: 128;
+	height: 128;
+	border: none;
+}
+
+.normal a {
+	width: 128;
+	height: 128;
+	float: left;
+	border: none;
+}
+
+.normal img {
+	width: 128;
+	height: 128;
+	border: none;
+}
+
+#content {
+	position: relative;
+	top: 100px;
+	width: 604px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button1 {
+	position: absolute;
+	top: 10px;
+	left: 110px;
+}
+
+#button2 {
+	position: absolute;
+	top: 10px;
+	left: 248px;
+}
+
+#button3 {
+	position: absolute;
+	top: 276px;
+	left: 110px;
+}
+
+#button4 {
+	position: absolute;
+	top: 414px;
+	left: 110px;
+}
+
+#button5 {
+	position: absolute;
+	top: 488px;
+	left: 110px;
+}
+
+#footer {
+	position: relative;
+	top: 700px;
+	text-align: center;
+}
